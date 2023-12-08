@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url('/IMGs/cansash\ city.jpg');
+    background-image: url('/IMGs/cansashcity.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,32 +25,44 @@ header {
   border-radius: 10px;
 }
 
-.topBar {
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-  }
-
-  .topBar a {
-    float: right;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight:bold;
-  }
-
-  .topBar a:hover {
-    background-color: rgb(160, 160, 160);
-    color: black;
-  }
-
-  .topBar a.active {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
-  }
-  
-  .topBar a.left{
-    float: left;
-  }
+ul{
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+}
+ul li{
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  display: block;
+  padding: 20px 25px;
+  font-weight: bolder;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+ul li ul.dropdown li{
+  display: block;
+}
+ul li ul.dropdown{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover{
+  background-color: rgb(170, 170, 170);
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+ul li.right{
+  float: right;
+}
+ul li.buy{
+  color: #ffffff;
+  float: right;
+  background-color: red;
+}
