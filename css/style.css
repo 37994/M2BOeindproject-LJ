@@ -6,10 +6,8 @@
 }
 
 body{
-    background-image: url('/IMGs/cansashcity.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-color: #B6BBC4;
+  overscroll-behavior: none;
 }
 
 header {
@@ -17,16 +15,22 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 2%;
 }
 header h1{
-  font-size: 60px;
+  font-size: 80px;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #F0ECE5;
+  padding: 0.5%;
+  border-radius: 5px;
 }
 
+ul img{
+  width: 7%;
+}
 ul{
   list-style: none;
-  background-color: rgb(255, 255, 255);
+  background-color: #161A30;
 }
 ul li{
   display: inline-block;
@@ -34,31 +38,28 @@ ul li{
 }
 ul li a{
   display: block;
-  padding: 20px 25px;
-  font-weight: bolder;
+  padding: 40px 35px;
+
   text-decoration: none;
   text-align: center;
   font-size: 20px;
-  color: black;
+  color: #ffffff;
 }
 ul li ul.dropdown li{
   display: block;
 }
 ul li ul.dropdown{
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #161A30;
   position: absolute;
   z-index: 999;
   display: none;
 }
 ul li a:hover{
-  background-color: rgb(170, 170, 170);
+  background-color: #31304D;
 }
 ul li:hover ul.dropdown{
   display: block;
-}
-ul li.right{
-  float: right;
 }
 ul li.buy{
   color: #ffffff;
@@ -70,36 +71,51 @@ ul li.buy{
 .boxes{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   color: black;
   padding: 1%;
   flex-grow: 1;
   flex-shrink: 1;
-  
 }
 .box1{
-  width: 400px;
-  background-color: #ffffff;
+  width: 600px;
+  background-color: #F0ECE5;
   border-radius: 5px;
   padding: 5px;
 }
 .box2{
-  width: 400px;
-  background-color: #ffffff;
+  width: 600px;
+  background-color: #F0ECE5;
   border-radius: 5px;
   padding: 5px;
 }
 .boxes .box1 img{
-  width: 50%;
+  width: 80%;
   float: right;
   border-radius: 5px;
 }
 .boxes .box2 img{
-  width: 50%;
+  width: 80%;
   float: right;
   border-radius: 5px;
 }
 .boxes p{
   padding: 5px;
   font-weight: 400;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #161A30;
+  float: bottom;
+  padding: 2%;
+  margin-top: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: #ffffff;
+  justify-content: space-evenly;
+  overscroll-behavior: contain;
 }
