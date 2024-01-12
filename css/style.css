@@ -7,7 +7,11 @@
 
 body{
   background-color: #B6BBC4;
-  overscroll-behavior: none;
+    background-image: url('../IMGs/cansashcity.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 header {
