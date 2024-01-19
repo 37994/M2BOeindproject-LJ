@@ -78,3 +78,22 @@ footer{
   justify-content: space-evenly;
   overscroll-behavior: contain;
 }
+
+.extraFotos{
+  display: flex;
+  margin-top: 75px;
+  padding: 40px;
+  background-color: #F0ECE5;
+  border: black;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.extraFotos img{
+  width: 575px;
+}
+
+.extraFotos p{
+  padding-top: 20px;
+  width: 575px;
+}
