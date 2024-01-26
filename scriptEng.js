@@ -25,7 +25,7 @@ for(let i =0; i < imgs.length; i++){
 
 function inputReview(){
   let reviewTitle = ['Samuel6900 - ☆', 'Kaj8371 - ☆☆☆☆', 'Robopro33 - ☆☆☆', 'XxWheelSeleniumxX - ☆','Michelle_Obama9291 - ☆☆','Garry_from_Gmod - ☆☆☆☆☆'];
-  let reviewContent = ['Ik vindt het niet een mooie website', 'Verschikkelijk episch en cool voor op mijn insta!', 'Het is het geld wel waard. Zeker een aanrader!', 'Dit is niet wat ik verwacht had en het was heel kort.', 'Het was niet wat ik verwacht had', 'Wauw echt gewoon wauw! Super leuk en leuk voor alle leeftijden']
+  let reviewContent = ["I don't think it's a pretty website", 'really epic and cool for my insta!', "It's worth the money though. Definitely recommended!", 'This is not what I expected and it was very short.', "It wasn't what I expected.", 'Wow really just wow! Super fun and fun for all ages.']
   let reviewTags = document.getElementsByClassName("rtext")
   let reviewNames = document.getElementsByClassName("rtitle")
  
