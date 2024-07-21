@@ -1,7 +1,4 @@
 
-
-//Img zoom
-
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -19,9 +16,6 @@ for(let i =0; i < imgs.length; i++){
         captionText.innerHTML = this.alt;
     }
 }
-
-
-//Random revieuw
 
 function inputReview(){
   let reviewTitle = ['Samuel6900 - ☆', 'Kaj8371 - ☆☆☆☆', 'Robopro33 - ☆☆☆', 'XxWheelSeleniumxX - ☆','Michelle_Obama9291 - ☆☆','Garry_from_Gmod - ☆☆☆☆☆'];
